@@ -140,15 +140,6 @@
                                     <action selector="FastClick:" destination="X8O-dv-2u2" eventType="touchUpInside" id="jdz-6j-gKv"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4b-2g-v0G">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" image="stop">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="stop:" destination="X8O-dv-2u2" eventType="touchUpInside" id="Erx-Oj-SdN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7In-rE-Zaz">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" image="chipmunk">
@@ -167,12 +158,21 @@
                                     <action selector="playDarthvaderAudio:" destination="X8O-dv-2u2" eventType="touchUpInside" id="iT7-U5-eet"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4b-2g-v0G">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="stop">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="stop:" destination="X8O-dv-2u2" eventType="touchUpInside" id="Erx-Oj-SdN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Gdk-oG-BAs" firstAttribute="top" secondItem="q4b-2g-v0G" secondAttribute="bottom" constant="198" id="6mH-cH-mTA"/>
                             <constraint firstAttribute="centerX" secondItem="q4b-2g-v0G" secondAttribute="centerX" id="9Y7-Hn-6Fa"/>
                             <constraint firstItem="7In-rE-Zaz" firstAttribute="top" secondItem="bmX-sZ-RLF" secondAttribute="bottom" constant="22" id="HpY-uA-3YM"/>
+                            <constraint firstItem="Gdk-oG-BAs" firstAttribute="top" secondItem="q4b-2g-v0G" secondAttribute="bottom" constant="153" id="Mre-OK-hbb"/>
                             <constraint firstItem="Qeq-9R-Uh8" firstAttribute="top" secondItem="yXi-de-cat" secondAttribute="bottom" constant="22" id="OAr-uf-xOr"/>
                             <constraint firstItem="bmX-sZ-RLF" firstAttribute="top" secondItem="DQP-4f-8ZM" secondAttribute="bottom" constant="34" id="Oj8-xf-hlh"/>
                             <constraint firstAttribute="centerX" secondItem="q4b-2g-v0G" secondAttribute="centerX" id="alw-Rw-ftZ"/>
@@ -187,46 +187,46 @@
                             <mask key="subviews">
                                 <exclude reference="bmX-sZ-RLF"/>
                                 <exclude reference="yXi-de-cat"/>
-                                <exclude reference="q4b-2g-v0G"/>
                                 <exclude reference="7In-rE-Zaz"/>
                                 <exclude reference="Qeq-9R-Uh8"/>
+                                <exclude reference="q4b-2g-v0G"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="Oj8-xf-hlh"/>
-                                <exclude reference="gct-ZB-R6z"/>
+                                <exclude reference="Mre-OK-hbb"/>
                                 <exclude reference="HpY-uA-3YM"/>
                                 <exclude reference="ncl-4g-Q6d"/>
-                                <exclude reference="ddm-34-xCh"/>
-                                <exclude reference="lQ6-r0-zbg"/>
                                 <exclude reference="OAr-uf-xOr"/>
                                 <exclude reference="igN-1u-vmz"/>
+                                <exclude reference="Oj8-xf-hlh"/>
+                                <exclude reference="gct-ZB-R6z"/>
                                 <exclude reference="9Y7-Hn-6Fa"/>
                                 <exclude reference="alw-Rw-ftZ"/>
                                 <exclude reference="bJe-fC-etq"/>
-                                <exclude reference="6mH-cH-mTA"/>
+                                <exclude reference="ddm-34-xCh"/>
+                                <exclude reference="lQ6-r0-zbg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="bmX-sZ-RLF"/>
                                 <include reference="yXi-de-cat"/>
-                                <include reference="q4b-2g-v0G"/>
                                 <include reference="7In-rE-Zaz"/>
                                 <include reference="Qeq-9R-Uh8"/>
+                                <include reference="q4b-2g-v0G"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="Oj8-xf-hlh"/>
-                                <include reference="gct-ZB-R6z"/>
+                                <include reference="Mre-OK-hbb"/>
                                 <include reference="HpY-uA-3YM"/>
                                 <include reference="ncl-4g-Q6d"/>
-                                <include reference="ddm-34-xCh"/>
-                                <include reference="lQ6-r0-zbg"/>
                                 <include reference="OAr-uf-xOr"/>
                                 <include reference="igN-1u-vmz"/>
+                                <include reference="Oj8-xf-hlh"/>
+                                <include reference="gct-ZB-R6z"/>
                                 <exclude reference="9Y7-Hn-6Fa"/>
                                 <include reference="alw-Rw-ftZ"/>
                                 <include reference="bJe-fC-etq"/>
-                                <include reference="6mH-cH-mTA"/>
+                                <include reference="ddm-34-xCh"/>
+                                <include reference="lQ6-r0-zbg"/>
                             </mask>
                         </variation>
                     </view>
